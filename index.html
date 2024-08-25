@@ -48,7 +48,7 @@
 
 <body class="manrope-fonts">
     <!-- nav bar design  -->
-    <header class="mx-4 md:">
+    <header class="mx-4 md: hidden">
         <section class="container mx-auto mb-32">
             <div class="navbar bg-base-100 container mx-auto ">
                 <div class="navbar-start">
@@ -57,7 +57,8 @@
                     <a class="btn btn-ghost font-extrabold">
                         <div class="bg-btn-bg-color -rotate-45  rounded-full flex items-center justify-center">
                             <div>
-                                <i class="fa-solid fa-arrow-right-long h-[32px] w-[32px] text-2xl"></i>
+                                <i
+                                    class="fa-solid fa-arrow-right-long h-[32px] w-[32px] bg-button-color rounded-full text-2xl"></i>
                             </div>
                         </div>
                         <div class="text-3xl">
@@ -119,11 +120,11 @@
 
                 <div class="flex justify-center">
                     <button
-                        class="px-20 md:px-6 md:py-3 bg-seconddbutton-color rounded-lg flex text-color-bold font-bold">
+                        class="px-20 py-2 md:px-10 md:py-2 bg-seconddbutton-color rounded-full flex text-color-bold font-bold bg-opacity-70">
                         View Details
                         <div>
                             <i
-                                class="fa-solid fa-arrow-right-long ml-2 bg-black text-white p-1 rounded-full -rotate-45"></i>
+                                class="fa-solid fa-arrow-right-long ml-2 bg-orange-500 text-white p-1 rounded-full -rotate-45"></i>
                         </div>
                     </button>
 
@@ -137,7 +138,7 @@
     <main>
         <!-- We design thoughtful, liveable spaces  1st div-->
         <section class=" bg-gray-100 py-28 ">
-            <div class="container mx-auto grid md:grid-cols-2 gap-9 "> <!--main conteiner-->
+            <div class="container mx-auto grid md:grid-cols-2 gap-9 hidden "> <!--main conteiner-->
                 <div>
                     <div class="flex justify-center md:justify-normal md:ml-11 mb-5 mx-4">
                         <button class="bg-white rounded-lg flex font-bold text-base pr-2 py-1">
@@ -149,7 +150,8 @@
                     </div>
 
                     <div class="md:ml-11 mx-4">
-                        <h1 class="text-4xl md:text-5xl font-bold mb-5 text-color-bold text-center md:text-left">We design
+                        <h1 class="text-4xl md:text-5xl font-bold mb-5 text-color-bold text-center md:text-left">We
+                            design
                             thoughtful, liveable spaces</h1>
                         <p class="mb-6 text-color-para text-center md:text-left text-sm font-normal">The barn house
                             captivates with its blend of rustic charm and
@@ -192,52 +194,55 @@
 
             <!-- Number Count  -->
 
-            <div class=" container grid md:grid-cols-4 gap-4 mx-auto my-28 bg-white max-w-[1220px] py-8 rounded-xl hidden"> <!-- main div  -->
-                <div class=" px-[60px] pt-4 pb-4 rounded-xl">
-                    <div class="w-[40px] h-[40px] ml-[35px]">
-                        <img class="w-full h-full" src="assets/chat-bubble-with-lines.png" alt="">
+            <section class="container mx-auto mt-28 hidden">
+                <div class="bg-white md:ml-10 md:mr-10 md:grid md:grid-cols-4 rounded-xl p-6 mx-4">
+                    <!-- first count Number  -->
+                    <div class="">
+                        <div class="flex flex-col justify-center items-center p-6 rounded-3xl">
+                            <div class="">
+                                <i class="fa-regular fa-message text-4xl text-red-300"></i>
+                            </div>
+                            <h1 class="text-4xl font-extrabold mt-2 mb-2">235+</h1>
+                            <p class="text-base font-medium ">Happy Client Review</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1 class="text-color-para text-6xl font-bold">235+</h1>
-                        <p class="text-color-para text-base font-medium">Happy Client Review</p>
+                    <!-- Second count Number  -->
+                    <div class="">
+                        <div class="flex flex-col justify-center items-center p-6 rounded-3xl">
+                            <div class="">
+                                <i class="fa-regular fa-message text-4xl text-red-300"></i>
+                            </div>
+                            <h1 class="text-4xl font-extrabold mt-2 mb-2">500+</h1>
+                            <p class="text-base font-medium ">Work Departments</p>
+                        </div>
                     </div>
-                </div>
-                <div class=" ml-11 px-[60px] pt-4 pb-4 rounded-xl">
-                    <div class="w-[40px] h-[40px] ml-[35px]">
-                        <img class="w-full h-full" src="assets/chat-bubble-with-lines.png" alt="">
+                    <!-- third count Number  -->
+                    <div class="">
+                        <div class="flex flex-col justify-center items-center p-6 rounded-3xl">
+                            <div class="">
+                                <i class="fa-regular fa-message text-4xl text-red-300"></i>
+                            </div>
+                            <h1 class="text-4xl font-extrabold mt-2 mb-2">300K+</h1>
+                            <p class="text-base font-medium ">Our Happy Client</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1 class="text-color-para text-6xl font-bold">235+</h1>
-                        <p class="text-color-para text-base font-medium">ferodus hossen my naem</p>
+                    <!-- four count Number  -->
+                    <div class="">
+                        <div class="flex flex-col justify-center items-center p-6 rounded-3xl">
+                            <div class="">
+                                <i class="fa-regular fa-message text-4xl text-red-300"></i>
+                            </div>
+                            <h1 class="text-4xl font-extrabold mt-2 mb-2">307+</h1>
+                            <p class="text-base font-medium ">Staff Members</p>
+                        </div>
                     </div>
-                </div>
-                <div class=" ml-11 px-[60px] pt-4 pb-4 rounded-xl">
-                    <div class="w-[40px] h-[40px] ml-[35px]">
-                        <img class="w-full h-full" src="assets/chat-bubble-with-lines.png" alt="">
-                    </div>
-                    <div>
-                        <h1 class="text-color-para text-6xl font-bold">235+</h1>
-                        <p class="text-color-para text-base font-medium">Happy Client Review</p>
-                    </div>
-                </div>
-                <div class=" ml-11 px-[60px] pt-4 pb-4 rounded-xl">
-                    <div class="w-[40px] h-[40px] ml-[35px]">
-                        <img class="w-full h-full" src="assets/chat-bubble-with-lines.png" alt="">
-                    </div>
-                    <div>
-                        <h1 class="text-color-para text-6xl font-bold">235+</h1>
-                        <p class="text-color-para text-base font-medium">Happy Client Review</p>
-                    </div>
-                </div>
-               
-                
 
-
-            </div>
+                </div>
+            </section>
 
             <!-- Our Works Process conteiner section -->
 
-            <div class="container mx-auto mt-28 mb-28">
+            <div class="container mx-auto mt-28 mb-28 hidden">
                 <div class="flex justify-center md:ml-11 mb-6 mx-4">
                     <button class="bg-white rounded-lg flex font-bold text-base py-2 px-5 text-color-bold ">
                         <div class="mr-2">
@@ -326,15 +331,93 @@
                 </div>
             </div>
 
+            <!-- Our Latest Portfolio  -->
+             <section class="bg-white md:p-28 mb-28">
+                <div class="container mx-auto">
+                    <div class="flex justify-center mb-5">
+                        <button
+                            class="px-20 py-3 md:py-2 md:px-10 bg-seconddbutton-color rounded-full flex text-color-bold font-bold bg-opacity-70">
+                           
+                            <div>
+                                <i
+                                    class="fa-solid fa-arrow-right-long ml-2 text-orange-500 p-1 rounded-full bg-opacity-80 mr-4"></i>
+                            </div>
+                            Explore our Latest works
+                        </button>
+                    </div>
 
+                    <div class="text-center mx-4">
+                        <h1 class="text-4xl md:text-5xl font-bold text-color-bold mb-4">Our Latest Portfolio</h1>
+                        <p class="text-base font-medium text-color-para text-center ">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                    <!-- man card section  -->
+
+                     <!-- Frist Card  -->
+                    <div class="mt-8 md:ml-10 md:mr-10 md:grid md:grid-cols-12 md:grid-rows-12 md:h-[450px] gap-6 mx-4">
+                        <div class=" col-span-8 row-span-6 md:flex items-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
+                            <div class="p-5 md:w-[500px] md:h-[180px]">
+                                <img class="md:w-[100%] md:h-[100%]" src="assets/img1.png" alt="">
+                            </div>
+                            <div class="space-y-3">
+                                <h1 class="text-2xl  font-extrabold text-color-bold">Commercial</h1>
+                                <p class="text-base font-medium text-color-para md:w-11/12">The barn house captivates with its blend of rustic charm and modern.  The barn house captivates with its blend of rustic charm and modern .</p>
+                                <button class="text-base text-color-bold font-extrabold flex items-center">
+                                    View Details
+                                    <div class="ml-2 ">
+                                        <i
+                                            class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
+                                    </div>
+                                </button>
+                            </div>   
+                        </div>
+                        <!-- Second Card  -->
+                        <div class=" col-span-4 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl "> 
+                            <div class="p-6">
+                                <img src="assets/img2.png" alt="">
+                            </div>  
+                        </div>
+                        <!-- Third Card  -->
+                        <div class=" col-span-3 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
+                            <div class="p-6">
+                                <img src="assets/img3.png" alt="">
+                            </div> 
+                        </div>
+                        <!--Fourth Card  -->
+                        <div class=" col-span-6 row-span-6  flex items-center border-[1px] border-[#E9E9E9] rounded-3xl">
+                            <div class="p-6  w-[500px] h-[180px]">
+                                <img class="w-[100%] h-[100%]" src="assets/img4.png" alt="">
+                            </div>
+                            <div class="space-y-3">
+                                <h1 class="text-2xl  font-extrabold text-color-bold">Commercial</h1>
+                                <p class="text-base font-medium text-color-para md:w-11/12">The barn house captivates with its blend of rustic charm and modern.  The barn house captivates with its blend of rustic charm and modern .</p>
+                                <button class="text-base text-color-bold font-extrabold flex items-center">
+                                    View Details
+                                    <div class="ml-2 ">
+                                        <i
+                                            class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
+                                    </div>
+                                </button>
+                            </div>  
+                        </div>
+                        <div class=" col-span-3 row-span-6  flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
+                            <div class="p-6">
+                                <img src="assets/img3.png" alt="">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+             </section>
 
 
             <!-- Optional section  -->
-             <section class="container mx-auto mb-28">
+            <section class="container mx-auto mb-28">
                 <div class="md:ml-11 md:mr-11 mx-4">
                     <div>
-                        <h1 class="text-4xl md:text-5xl font-bold mb-5 text-color-bold text-center" >Read Our Articles and News</h1>
-                        <p class="text-color-para text-base font-medium text-center" >The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                        <h1 class="text-4xl md:text-5xl font-bold mb-5 text-color-bold text-center">Read Our Articles
+                            and News</h1>
+                        <p class="text-color-para text-base font-medium text-center">The barn house captivates with its
+                            blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal
+                            accents.</p>
                     </div>
                     <!-- first Card  -->
                     <div class="md:grid md:grid-cols-3 gap-12 md:ml-10 mt-12 ">
@@ -347,16 +430,19 @@
                                 <small class="mr-3 italic">By Admin</small>
                             </div>
                             <div class="ml-4 md:ml-0">
-                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold" >How to choose the furniture right  of your home.</h1>
-                                <p class="text-color-para text-normal font- italic mb-2" >The barn house captivates with its blend of rustic charm and modern. </p>
+                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold">How to choose the furniture right
+                                    of your home.</h1>
+                                <p class="text-color-para text-normal font- italic mb-2">The barn house captivates with
+                                    its blend of rustic charm and modern. </p>
                                 <button class=" text-color-bold font-bold flex items-center">
-                                    Read More 
+                                    Read More
                                     <div class="ml-2 ">
-                                        <i class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
+                                        <i
+                                            class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
                                     </div>
                                 </button>
-                              
-                                
+
+
                             </div>
                         </div>
                         <div class="bg-white p-6 rounded-2xl mb-10">
@@ -368,20 +454,23 @@
                                 <small class="mr-3 italic">By Admin</small>
                             </div>
                             <div class="ml-4">
-                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold" >How to choose the furniture right  of your home.</h1>
-                                <p class="text-color-para text-normal font- italic mb-2" >The barn house captivates with its blend of rustic charm and modern. </p>
+                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold">How to choose the furniture right
+                                    of your home.</h1>
+                                <p class="text-color-para text-normal font- italic mb-2">The barn house captivates with
+                                    its blend of rustic charm and modern. </p>
                                 <button class=" text-color-bold font-bold flex items-center">
-                                    Read More 
+                                    Read More
                                     <div class="ml-2 ">
-                                        <i class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
+                                        <i
+                                            class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
                                     </div>
                                 </button>
-                              
-                                
+
+
                             </div>
                         </div>
                         <div class="bg-white p-6 rounded-2xl mb-10">
-                            <div  class="ml-4">
+                            <div class="ml-4">
                                 <img src="assets/article3.png" alt="">
                             </div>
                             <div class="ml-4">
@@ -389,23 +478,26 @@
                                 <small class="mr-3 italic">By Admin</small>
                             </div>
                             <div class="ml-4">
-                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold" >How to choose the furniture right  of your home.</h1>
-                                <p class="text-color-para text-normal font- italic mb-2" >The barn house captivates with its blend of rustic charm and modern. </p>
+                                <h1 class="md:text-2xl font-bold mb-2 text-color-bold">How to choose the furniture right
+                                    of your home.</h1>
+                                <p class="text-color-para text-normal font- italic mb-2">The barn house captivates with
+                                    its blend of rustic charm and modern. </p>
                                 <button class=" text-color-bold font-bold flex items-center">
-                                    Read More 
+                                    Read More
                                     <div class="ml-2 ">
-                                        <i class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
+                                        <i
+                                            class="fa-solid fa-arrow-right-long ml- text-black  rounded-full p-1  bg-seconddbutton-color -rotate-45"></i>
                                     </div>
                                 </button>
-                              
-                                
+
+
                             </div>
                         </div>
                         <!-- ------------------------------------------ -->
 
                     </div>
                 </div>
-             </section>
+            </section>
 
             <!-- Let’s Discuss Next Project  -->
 
@@ -414,7 +506,7 @@
                     <div class="container mx-auto text-center ">
                         <div class="flex justify-center md:ml-11 mb-5 mx-4">
                             <button
-                                class="bg-seconddbutton-color rounded-lg flex font-bold text-base py-2 px-5 text-color-bold ">
+                                class="bg-seconddbutton-color rounded-full flex font-bold text-base py-2 px-5 text-color-bold ">
                                 <div class="mr-2">
                                     <i class="fa-solid fa-arrow-right-long ml- text-black  rounded-full "></i>
                                 </div>
@@ -424,26 +516,31 @@
 
 
                         <h1 class=" text-4xl md:text-5xl font-bold text-color-bold mx-4">Let’s Discuss Next Project</h1>
-                        <p class="my-5 text-center text-sm font-medium text-color-para mx-4">The barn house captivates with
+                        <p class="my-5 text-center text-sm font-medium text-color-para mx-4">The barn house captivates
+                            with
                             its blend of rustic charm and modern
                             sophistication,
                             <br> featuring weathered wood, sleek metal accents.
                         </p>
                         <!-- input section  grid gap-6 mt-1 md:ml-11 md:mr-11 -->
                         <div class="md:grid md:grid-cols-2 gap-6 mt-1 md:ml-11 md:mr-11 mx-4">
-                            <div><input placeholder="First Name*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0" type="text">
+                            <div><input placeholder="First Name*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0"
+                                    type="text">
                             </div>
-                            <div><input placeholder="Last Name*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0" type="text"></div>
-                            <div><input placeholder="Phone Number*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0" type="text">
+                            <div><input placeholder="Last Name*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0"
+                                    type="text"></div>
+                            <div><input placeholder="Phone Number*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0"
+                                    type="text">
                             </div>
-                            <div><input placeholder="Email Number*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0" type="text">
+                            <div><input placeholder="Email Number*" class="w-full py-3 pl-6 rounded-3xl mb-5 md:mb-0"
+                                    type="text">
                             </div>
                             <textarea placeholder="Write your message here" name=""
                                 class="w-full h-52 rounded-3xl col-span-2 py-3 pl-6"></textarea>
 
                         </div>
-                        <div class="mt-8 bg-green-100 rounded-3xl mx-11 mr-11">
-                            <button class="py-3 ">Send Mail</button>
+                        <div class="mt-8 bg-button-color bg-opacity-80 rounded-3xl mx-4 md:mx-11 md:mr-11">
+                            <button class="py-2 text-xl font-extrabold ">Send Mail</button>
                         </div>
                     </div>
 
@@ -458,11 +555,11 @@
         <section class="container mx-auto flex justify-center flex-col items-center text-center ">
             <div class="mx-4">
                 <div>
-                    <div class="flex justify-center md:ml-11 mb-5 mx-4 mr-20">
-                        <a
-                            class="rounded-lg flex font-bold py-2 px-5 text-white text-2xl">
+                    <div class="flex justify-center md:ml-11 mb-5 mx-4 md:mr-20 mr-5">
+                        <a class="rounded-lg flex font-bold py-2 px-5 text-white text-2xl">
                             <div class="mr-2">
-                                <i class="fa-solid fa-arrow-right-long ml- text-black bg-button-color p-1 rounded-full -rotate-45 "></i>
+                                <i
+                                    class="fa-solid fa-arrow-right-long ml- text-black bg-button-color p-1 rounded-full -rotate-45 "></i>
                             </div>
                             Rinterio
                         </a>
@@ -482,7 +579,7 @@
                 </ul>
 
                 <div>
-                    <button class="btn border-none bg-button-color px-5">About Us
+                    <button class="btn border-none bg-button-color px-10 rounded-full">About Us
                         <div class="bg-[#1C1C1C] p-1 rounded-full -rotate-45 text-white">
                             <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
