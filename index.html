@@ -48,7 +48,7 @@
 
 <body class="manrope-fonts">
     <!-- nav bar design  -->
-    <header class="mx-4 md: hidden">
+    <header class="mx-4 md: ">
         <section class="container mx-auto mb-32">
             <div class="navbar bg-base-100 container mx-auto ">
                 <div class="navbar-start">
@@ -138,7 +138,7 @@
     <main>
         <!-- We design thoughtful, liveable spaces  1st div-->
         <section class=" bg-gray-100 py-28 ">
-            <div class="container mx-auto grid md:grid-cols-2 gap-9 hidden "> <!--main conteiner-->
+            <div class="container mx-auto grid md:grid-cols-2 gap-9 "> <!--main conteiner-->
                 <div>
                     <div class="flex justify-center md:justify-normal md:ml-11 mb-5 mx-4">
                         <button class="bg-white rounded-lg flex font-bold text-base pr-2 py-1">
@@ -194,7 +194,7 @@
 
             <!-- Number Count  -->
 
-            <section class="container mx-auto mt-28 hidden">
+            <section class="container mx-auto mt-28 ">
                 <div class="bg-white md:ml-10 md:mr-10 md:grid md:grid-cols-4 rounded-xl p-6 mx-4">
                     <!-- first count Number  -->
                     <div class="">
@@ -242,7 +242,7 @@
 
             <!-- Our Works Process conteiner section -->
 
-            <div class="container mx-auto mt-28 mb-28 hidden">
+            <div class="container mx-auto mt-28 mb-28 ">
                 <div class="flex justify-center md:ml-11 mb-6 mx-4">
                     <button class="bg-white rounded-lg flex font-bold text-base py-2 px-5 text-color-bold ">
                         <div class="mr-2">
@@ -336,7 +336,7 @@
                 <div class="container mx-auto">
                     <div class="flex justify-center mb-5">
                         <button
-                            class="px-20 py-3 md:py-2 md:px-10 bg-seconddbutton-color rounded-full flex text-color-bold font-bold bg-opacity-70">
+                            class="px-10 py-3 md:py-2 md:px-10 bg-seconddbutton-color rounded-full flex text-color-bold font-bold bg-opacity-70">
                            
                             <div>
                                 <i
@@ -354,14 +354,14 @@
 
                      <!-- Frist Card  -->
                     <div class="mt-8 md:ml-10 md:mr-10 md:grid md:grid-cols-12 md:grid-rows-12 md:h-[450px] gap-6 mx-4">
-                        <div class=" col-span-8 row-span-6 md:flex items-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
-                            <div class="p-5 md:w-[500px] md:h-[180px]">
-                                <img class="md:w-[100%] md:h-[100%]" src="assets/img1.png" alt="">
+                        <div class=" md:col-span-8 row-span-6 md:flex items-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
+                            <div class="p-5 ">
+                                <img class="max-w-[500px] max-h-[200px]" src="assets/img1.png" alt="">
                             </div>
                             <div class="space-y-3">
-                                <h1 class="text-2xl  font-extrabold text-color-bold">Commercial</h1>
-                                <p class="text-base font-medium text-color-para md:w-11/12">The barn house captivates with its blend of rustic charm and modern.  The barn house captivates with its blend of rustic charm and modern .</p>
-                                <button class="text-base text-color-bold font-extrabold flex items-center">
+                                <h1 class="text-2xl  font-extrabold text-color-bold pl-5">Commercial</h1>
+                                <p class="text-base font-medium text-color-para pl-5">The barn house captivates with its blend of rustic charm and modern.  The barn house captivates with its blend of rustic charm and modern .</p>
+                                <button class="text-base text-color-bold font-extrabold flex items-center pl-5">
                                     View Details
                                     <div class="ml-2 ">
                                         <i
@@ -371,26 +371,30 @@
                             </div>   
                         </div>
                         <!-- Second Card  -->
-                        <div class=" col-span-4 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl "> 
+                        <div class=" md:col-span-4 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl "> 
                             <div class="p-6">
-                                <img src="assets/img2.png" alt="">
+                                <img class="w-full h-full border-2 border-red-500" src="assets/img2.png" alt="">
                             </div>  
+                             
                         </div>
                         <!-- Third Card  -->
-                        <div class=" col-span-3 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
-                            <div class="p-6">
-                                <img src="assets/img3.png" alt="">
+                        <div class=" md:col-span-3 row-span-6 flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
+                            <div class="p-6 md:w-auto md:h-auto w-[500px] h-[200px] border-red-500 hidden md:block">
+                                <img class="w-full h-full border-2 border-red-500" src="assets/img3.png" alt="">
+                            </div> 
+                            <div class="p-6 md:hidden block">
+                                <img class="w-[500px] h-[200px] border-2 border-red-500" src="assets/img5.png" alt="">
                             </div> 
                         </div>
                         <!--Fourth Card  -->
-                        <div class=" col-span-6 row-span-6  flex items-center border-[1px] border-[#E9E9E9] rounded-3xl">
-                            <div class="p-6  w-[500px] h-[180px]">
-                                <img class="w-[100%] h-[100%]" src="assets/img4.png" alt="">
+                        <div class=" col-span-6 row-span-6  md:flex items-center border-[1px] border-[#E9E9E9] rounded-3xl">
+                            <div class="p-6 ">
+                                <img class="w-[500px] h-[200px] md:w-[200px] md:h-[140px] " src="assets/img4.png" alt="">
                             </div>
-                            <div class="space-y-3">
-                                <h1 class="text-2xl  font-extrabold text-color-bold">Commercial</h1>
-                                <p class="text-base font-medium text-color-para md:w-11/12">The barn house captivates with its blend of rustic charm and modern.  The barn house captivates with its blend of rustic charm and modern .</p>
-                                <button class="text-base text-color-bold font-extrabold flex items-center">
+                            <div class="space-y-3 max-w-[200px]">
+                                <h1 class="text-2xl  font-extrabold text-color-bold md:pl-0 pl-5">Commercial</h1>
+                                <p class="text-base font-medium text-color-para  md:pl-0 pl-5">The barn house lorem10rr, dolores! charm and modern .</p>
+                                <button class="text-base text-color-bold font-extrabold flex items-center pl-5">
                                     View Details
                                     <div class="ml-2 ">
                                         <i
@@ -399,9 +403,11 @@
                                 </button>
                             </div>  
                         </div>
+                        <!--five Card  -->
+                        
                         <div class=" col-span-3 row-span-6  flex items-center justify-center border-[1px] border-[#E9E9E9] rounded-3xl"> 
                             <div class="p-6">
-                                <img src="assets/img3.png" alt="">
+                                <img class="w-[500px] h-[200px] md:w-[200px] md:h-[140px]" src="assets/img5.png" alt="">
                             </div> 
                         </div>
                     </div>
